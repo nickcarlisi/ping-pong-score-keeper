@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Practice</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://res.cloudinary.com/dwh6m5mbn/image/upload/c_lfill,w_830/v1533211436/News/General/Ping_Pong.jpg"
+        alt=""
+      />
+      <p id="title">Ping Pong Score Keeper</p>
+
+      <p id="p1Para">Player 1: <span id="p1Display">0</span></p>
+      <p id="p1Para">Player 2: <span id="p2Display">0</span></p>
+      <p>Use the buttons below to keep score</p>
+      <div class="playingToContainer">
+        <label for="playingTo">Playing to: </label>
+        <select name="playingTo" id="playingTo">
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+        </select>
+      </div>
+
+      <div class="buttons">
+        <button id="p1Button">+1 Player One</button>
+        <button id="p2Button">+1 Player Two</button>
+        <button id="reset">Reset</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444451;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f8f8ff;
+}
+
+h1,
+p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.winner {
+  color: green;
+}
+
+.loser {
+  color: red;
+}
+
+#playingTo {
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.container {
+  border: 1px solid #444451;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 350px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+button {
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  color: #fff;
+}
+
+#p2Button {
+  background-color: blue;
+}
+
+#reset {
+  background-color: red;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.playingToContainer {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  margin-right: 10px;
+}
+
+#title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
